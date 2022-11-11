@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Document</title>
+	<title>Cart</title>
 	<link rel="stylesheet" href="cart.css">
 	<link rel="stylesheet" href="Style.css">
 </head>
@@ -12,27 +12,38 @@
 	<header></header>
     <Main>
 		<p>Din varukorg</p>
-		<picture></picture>
-		<article>
-			<p>Sixth Sense</p>
-			<p>Aktivitetsarmband Turkos</p>
-			<p>Tillägg</p>
+		
+		<section class="product-card">
+			<picture>
+			<img src="product-picture.jpg" width="150" alt="Ett aktivitetsarmband med turkos gummirem mot grå bakgrund">
+			</picture>
+			<div class="product-text">
+				<p>Sixth Sense</p>
+				<p>1200 Kr</p>
+				
+			</div>
+			<p>Aktivitetsarmband Färg turkos</p>
+			<div class="extra">
+				<p>Tillägg</p>
+				<p>50 Kr</p>
+			</div>
 			<p>Tryck</p>
-		</article>
-		<div>
-			<p>1200 Kr</p>
-			<p>50 Kr</p>
-		</div>
+		</section>
+
 		<form action="/action_page.php">
 			<lable for="print"> Ändra/lägg till tryck</lable>
 			<input type="text" id="print" name="print">
-			<input type="submit" value="Ändra" class="button">
+			<input type="submit" value="Ändra" class="smallbutton">
 		</form>
+
 		<div>
 			<p>Totalsuma(1 artikel): 1250 kr</p>
 			<p>inkl moms</p>
-
+			<button class="button"> 
+				<p>Gå till kassa</p>
+			</button>
 		</div>
+
 	</Main>
 	<Footer>
 		<div>

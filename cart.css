@@ -1,1 +1,12 @@
-background-color: blue;
+.product-card{
+	display:grid;
+	grid-template-columns: repeat(3, 1fr);
+}
+.product-text{
+	display:flex;
+}
+.extra{
+	display:flex;
+
+}
+.product-card :nth-child(3)
