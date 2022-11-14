@@ -1,0 +1,285 @@
+body {
+  height: 100vh;
+  display: grid;
+}
+
+/* Här börjar headerkoden för mobil */
+header {
+  background-color: #495A57;
+  position: fixed;
+  width: 100%;
+  z-index: 99;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.shopping-icon-mobile {
+  height: 2rem;
+  position: absolute;
+  right: 0;
+  margin-right: 1em;
+}
+
+h1 {
+  color: #D9D9d9;
+}
+
+img {
+  height: 5em;
+}
+
+.nav-toggle-label span,
+.nav-toggle-label span::before,
+.nav-toggle-label span::after {
+  display: block;
+  background-color: white;
+  height: 4px;
+  width: 1.8em;
+  border-radius: 2px;
+  position: relative;
+}
+
+.nav-toggle-label span::before,
+.nav-toggle-label span::after {
+  content: '';
+  position: absolute;
+}
+
+.nav-toggle-label span::before {
+  bottom: 8px;
+}
+
+.nav-toggle-label span::after {
+  top: 8px;
+}
+
+nav {
+  background-color: #D9D9D9;
+  position: absolute;
+  text-align: center;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  transform: scale(1,0);
+  transform-origin: top;
+  transition: transform 400ms ease-in-out;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  margin-bottom: 1em;
+  margin-left: 1em;
+}
+
+nav a {
+  color: #495A57;
+  text-decoration: none;
+  font-size: 2rem;
+  text-transform: uppercase;
+  opacity: 0;
+  transition: opacity 150ms ease-in-out;
+}
+
+.nav-toggle:checked ~ nav {
+  transform: scale(1,1);
+}
+
+.nav-toggle:checked ~ nav a {
+  opacity: 1;
+  transition: opacity 250ms ease-in-out 250ms;
+}
+
+.nav-toggle {
+  display: none;
+}
+
+.nav-toggle-label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-left: 1em;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.shopping-icon {
+  opacity: 0;
+}
+
+/* Här slutar headerkoden för mobil och footerkoden för mobil startar */
+
+footer {
+  background-color: #495A57;
+  border: 10px solid red;
+  display: grid;
+  grid-template-rows: 6fr 2fr 2.5fr 0.5fr ;
+  grid-template-columns: 100vw;
+  color: white;
+}
+
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-links ul li {
+  list-style: none;
+  font-size: 1.5rem;
+  text-align: center;
+  margin: 1.7rem 0rem;
+}
+
+.footer-links ul li a {
+  color: white;
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social a {
+  margin: 0rem 0.8rem;
+}
+
+.social a img {
+  height: 4.2rem;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-info h3 {
+  font-size: 1.3rem;
+}
+
+.contact-info p {
+  font-size: 1.1rem;
+}
+
+.copyright {
+  border-top: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Här slutar koden för footern på mindre skärm */
+
+
+
+@media screen and (min-width: 920px) {
+  
+/* Här börjar header koden för större skärm */
+  header {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 2fr ;
+  }
+
+  .logo {
+    grid-column-start: 2;
+  }
+  
+  .nav-toggle-label {
+    display: none;
+  }
+
+  nav {
+    transform: none;
+    transition: none;
+  }
+
+  nav ul {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr 1fr 1fr 1fr 1fr 1.5fr;
+    margin-top: 0.8rem;
+  }
+
+
+  nav a {
+    opacity: 1;
+    font-size: 1.5rem;
+  }
+
+  .shopping-icon {
+    height: 1.5rem;
+    opacity: 1;
+    
+  }
+
+  .shopping-icon-mobile {
+    display: none;
+  }
+
+  /* här slutar header koden för större skärm och börjar footer koden för större skärm*/
+
+  footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 15rem 2rem;
+    height: 17rem;
+  }
+
+  .footer-links {
+    grid-column-start: 2;
+  }
+
+  .footer-links ul li {
+    text-align: left;
+  }
+
+  .social {
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-right: 3rem;
+    margin-bottom: 2rem;
+  }
+
+  .social a img {
+    height: 3rem;
+  }
+
+  .contact-info {
+    grid-column-start: 1;
+    grid-row-start: 1;
+    align-items: flex-start;
+    margin-left: 2rem;
+  }
+
+  .contact-info > * {
+    margin-top: 1rem;
+  }
+
+  .copyright {
+    grid-column-start: 1;
+    grid-column-end: 4;
+  }
+
+  /* Här slutar footer koden för större skärm */
+
+}
+
+
+main {
+  background-color: bisque;
+}
