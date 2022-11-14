@@ -5,13 +5,12 @@
 	Padding:0;
 	font-family: 'Inter', sans-serif;
 }
-body{background-color:#F5F8F7
-}
 .button{
 	background-color:#55C2DA;
 }
 
 body {
+  background-color:#F5F8F;
   height: 100vh;
   display: flex;
   flex-direction:column;
@@ -139,7 +138,6 @@ footer {
   background-color: #495A57;
   display: grid;
   grid-template-rows: 6fr 2fr 2.5fr 0.5fr ;
-  grid-template-columns: 100vw;
   color: white;
 }
 
