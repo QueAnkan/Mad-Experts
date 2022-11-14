@@ -1,14 +1,15 @@
 * {
     margin: 0.2rem;
 }
-
 .responsive {
     width: 100%;
     height: auto; 
 }
 
 img {
-    padding-bottom: 2em;
+    width: 400px;
+    height: 350px;
+    padding-bottom: 1em;
 }
 
 .head-image-container {
@@ -19,30 +20,30 @@ img {
 .card1 {
     background-color: white;
     border-top: 2px solid black;
-    padding: 1px;
-    padding-top: 1em;
+    padding-top: 1.5em;
     padding-bottom: 2em;
-    display: flex;
-    flex-direction: column;
-    justify-content: end;
-    align-items: center;
+    text-align: center;
+
 }
 
 .card2 {
     background-color: white;
     border-top: 2px solid black;
-    padding: 1em;
     padding-bottom: 2em;
+    padding-top: 1em;
+    text-align: center;
 }
 
 .card3 {
     background-color: white;
     border-top: 2px solid black;
-    padding: 1em;
+    padding-top: 1em;
+    text-align: center;
+    padding-bottom: 2em;
+    
+} 
+.person1 .person2 .person3 {
+    width: 500px;
+
 }
-ul > li {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
    /* line-height: 1.0;*/
-}
