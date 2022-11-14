@@ -1,24 +1,48 @@
 * {
-    margin: 0.8rem;
+    margin: 0.2rem;
 }
 
 .responsive {
     width: 100%;
-    height: auto;
+    height: auto; 
+}
+
+img {
+    padding-bottom: 2em;
 }
 
 .head-image-container {
     text-align: center;
+    padding-bottom: 2em;
 }
- 
-.card-folder {
+
+.card1 {
+    background-color: white;
+    border-top: 2px solid black;
+    padding: 1px;
+    padding-top: 1em;
+    padding-bottom: 2em;
     display: flex;
     flex-direction: column;
-    border: 2em 2em;
-
+    justify-content: end;
+    align-items: center;
 }
-ul {
+
+.card2 {
+    background-color: white;
+    border-top: 2px solid black;
+    padding: 1em;
+    padding-bottom: 2em;
+}
+
+.card3 {
+    background-color: white;
+    border-top: 2px solid black;
+    padding: 1em;
+}
+ul > li {
     list-style-type: none;
     margin: 0;
     padding: 0;
+   /* line-height: 1.0;*/
 }
