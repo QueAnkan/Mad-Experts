@@ -4,9 +4,105 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Document</title>
+	<title>Cart</title>
+	<link rel="stylesheet" href="cart.css">
+	<link rel="stylesheet" href="Style.css">
+	<link rel="stylesheet" href="header-footer.css">
 </head>
 <body>
+	<header><div class="logo">
+		<img src="/img/HH-ikon.png" class="logoimage">
+		<h1>Health Hero</h1>
+	  </div>
+	  <input type="checkbox" id="nav-toggle" class="nav-toggle">
+	  <label for="nav-toggle" class="nav-toggle-label">
+		<span></span>
+	  </label>
+	  <nav>
+		<ul>
+		  <li></li>
+		  <li> <a href="#"> Produkter </a> </li>
+		  <li> <a href="#"> Om oss </a> </li>
+		  <li> <a href="#"> Kontakt </a> </li>
+		  <li> <a href="#"> Hem </a> </li>
+		  <li> <a href="#"><img class="shopping-icon" src="/img/shopping.png"></a> </li>
+		</ul>
+	  </nav>
+	  <a href="#"><img class="shopping-icon-mobile" src="/img/shopping-mobil.png"></a>
+	</header>
+    <main>
+		<p>Din varukorg</p>
+		
+		<section class="product-card">
+
+			<picture class="product-picture">
+			<img src="product-picture.jpg" width="150" alt="Ett aktivitetsarmband med turkos gummirem mot grå bakgrund" >
+			</picture>
+			<div class="purchase">
+				<p>Sixth Sense</p>
+				<p>Aktivitetsarmband </p>
+				<p>Färg turkos</p>
+			</div>
+			
+				<p>1200 Kr</p>
+			<div class="print-added">	
+				<p>Tillägg</p>
+				<p>Tryck: Runner</p>
+			</div>
+			<p>50 Kr</p>
+			<form class="change-quantity" >
+				<button class="add-remove button">
+					<p>-</p>
+				</button>
+				<input type="number" id="quantity" name=quantity max="30" min="0">
+				<button class="add-remove button">
+					<p>+</p>
+				</button>	
+			</form>
+
+		</section>
+
+		<form class="input-field">
+			<lable for="print"> Ändra/lägg till tryck</lable>
+			<input type="text" id="print" name="print">
+			<input type="submit" value="Ändra" class="smallbutton button">
+		</form>
+
+		<div>
+			<p>Totalsuma(1 artikel): 1250 kr</p>
+			<p>inkl moms</p>
+			<button class="button"> 
+				<p>Gå till kassa</p>
+			</button>
+		</div>
+	</main>
+	<Footer>
+		<div class="footer-links">
+			<ul>
+			  <li> <a href="#">Till startsida</a> </li>
+			  <li> <a href="#">Om oss</a> </li>
+			  <li> <a href="#">Vanliga frågor</a> </li>
+			  <li> <a href="#">Köpvillkor</a> </li>
+			</ul>
+		  </div>
+	  
+		  <div class="social">
+			<a href="#"> <img src="/img/Facebook - png 1.png" alt="facebook ikon"> </a>
+			<a href="#"> <img src="/img/Instagram - png 1.png" alt="instagram ikon"> </a>
+			<a href="#"> <img src="/img/TikTok - png 1.png" alt="tiktok ikon"> </a>
+		  </div>
+	  
+		  <div class="contact-info">
+			<h3> Kontakt </h3>
+			<P><Strong>E-mail</Strong> info@healthhero.se</P>
+			<p><strong>Telefontider</strong> Måndag-fredag 09:00-18:00</p>
+			<p><strong>Telefon</strong> 0763 282843</p>
+		  </div>
+	  
+		  <div class="copyright">
+			<p>Copyright 2022 Health Hero AB</p>
+		  </div>
+	</Footer>
 	
 </body>
 </html>
