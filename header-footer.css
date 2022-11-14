@@ -1,12 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+*{
+	margin:0;
+	Padding:0;
+  box-sizing: border-box;
+	font-family: 'Inter', sans-serif;
+}
+
+
 body {
   height: 100vh;
-  display: grid;
 }
 
 /* Här börjar headerkoden för mobil */
 header {
   background-color: #495A57;
-  position: fixed;
+  position: sticky;
+  top: 0;
   width: 100%;
   z-index: 99;
   display: flex;
@@ -31,7 +40,7 @@ h1 {
   color: #D9D9d9;
 }
 
-img {
+.logo img {
   height: 5em;
 }
 
@@ -278,7 +287,3 @@ footer {
 
 }
 
-
-main {
-  background-color: bisque;
-}
