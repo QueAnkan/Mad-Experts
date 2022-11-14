@@ -11,7 +11,7 @@
 </head>
 <body>
 	<header><div class="logo">
-		<img src="/img/HH-ikon.png">
+		<img src="/img/HH-ikon.png" class="logoimage">
 		<h1>Health Hero</h1>
 	  </div>
 	  <input type="checkbox" id="nav-toggle" class="nav-toggle">
@@ -30,7 +30,7 @@
 	  </nav>
 	  <a href="#"><img class="shopping-icon-mobile" src="/img/shopping-mobil.png"></a>
 	</header>
-    <Main>
+    <main>
 		<p>Din varukorg</p>
 		
 		<section class="product-card">
@@ -50,22 +50,22 @@
 				<p>Tryck: Runner</p>
 			</div>
 			<p>50 Kr</p>
-			<div class="change-quantity">
-				<button class="add-remove">
-				<p>-</p>
+			<form class="change-quantity" >
+				<button class="add-remove button">
+					<p>-</p>
 				</button>
-				<button class="add-remove">
+				<input type="number" id="quantity" name=quantity max="30" min="0">
+				<button class="add-remove button">
 					<p>+</p>
-				</button>
-				
-		</div>
+				</button>	
+			</form>
 
 		</section>
 
-		<form action="/action_page.php" class="input-field">
+		<form class="input-field">
 			<lable for="print"> Ändra/lägg till tryck</lable>
 			<input type="text" id="print" name="print">
-			<input type="submit" value="Ändra" class="smallbutton">
+			<input type="submit" value="Ändra" class="smallbutton button">
 		</form>
 
 		<div>
@@ -75,8 +75,7 @@
 				<p>Gå till kassa</p>
 			</button>
 		</div>
-
-	</Main>
+	</main>
 	<Footer>
 		<div class="footer-links">
 			<ul>

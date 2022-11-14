@@ -4,9 +4,10 @@ main{
 	flex-direction: column;
 	align-items: center;
 	margin-top:5em;
+	
 }
 .product-card{
-	border:2px solid black;
+	/*border:2px solid black;*/
 	display:grid;
 	grid-template-columns: repeat(3, 1fr);
 	grid-template-rows: 2fr 2fr 1fr;
@@ -27,29 +28,33 @@ main{
 .purchase{
 	display:flex;
 	flex-direction: column;
-	border: 2px solid black;
+/*	border: 2px solid black;*/
 	grid-row:1/1;
 	grid-column:2/2;
+	margin:1em;
+
 }
 .product-card>:nth-child(3){
-	background-color:aqua;
-	border: 2px solid black;
+	/*background-color:aqua;
+	border: 2px solid black;*/
 	text-align:right;
 
 }
 .print-added{
-	border: 2px solid black;
-	background-color: yellow;
+	/*border: 2px solid black;
+	background-color: yellow;*/
 	display:flex;
 	flex-direction: column;
+	margin:1em;
+
 
 	grid-row:2/2;
 	grid-column:2/2;
 }
 .product-card :nth-child(5){
 	
-	border: 2px solid black;
-	background-color: pink;
+	/*border: 2px solid black;
+	background-color: pink;*/
 	text-align:right;
 	grid-row:2/2;
 	grid-column:3/3;
@@ -58,6 +63,7 @@ main{
 .change-quantity{
 	grid-row:3/3;
 	grid-column: 3/3;
+	justify-self:end
 }
 
 .input-field{
@@ -65,4 +71,12 @@ main{
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
+}
+#quantity{
+	width:2em;
+	height:2em;
+}
+.add-remove{
+	width:2.4em;
+	height:2.4em;
 }
