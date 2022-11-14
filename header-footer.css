@@ -137,7 +137,6 @@ nav a {
 
 footer {
   background-color: #495A57;
-  border: 10px solid red;
   display: grid;
   grid-template-rows: 6fr 2fr 2.5fr 0.5fr ;
   grid-template-columns: 100vw;
