@@ -1,6 +1,7 @@
 body {
   height: 100vh;
-  display: grid;
+  display: flex;
+  flex-direction:column;
 }
 
 /* Här börjar headerkoden för mobil */
@@ -31,7 +32,7 @@ h1 {
   color: #D9D9d9;
 }
 
-img {
+.logoimage {
   height: 5em;
 }
 
@@ -280,6 +281,3 @@ footer {
 }
 
 
-main {
-  background-color: bisque;
-}
