@@ -17,7 +17,6 @@ body {
   
 }
 
-
 /* Här börjar headerkoden för mobil */
 header {
   background-color: #495A57;
@@ -138,7 +137,6 @@ nav a {
 
 footer {
   background-color: #495A57;
-
   display: grid;
   grid-template-rows: 6fr 2fr 2.5fr 0.5fr ;
   color: white;

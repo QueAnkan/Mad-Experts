@@ -56,10 +56,13 @@ article {
 
 .card3 {
     padding-top: 1em;
-    padding-bottom: 3rem;
-    
+    padding-bottom: 3rem; 
 }
-
+hr {
+    border:0;
+    border-top: 1px solid black;
+    width: 100%;
+}
    /* line-height: 1.0;*/
 
    /*Här startar webbversionen*/ 
@@ -70,15 +73,10 @@ article {
     } 
     .person1, .person3 {
         padding-top: 5em;
-
-    }
-} 
-    }
+    } 
     .person2 {
         grid-row-start: 2;
         padding-top: 5em;
     }
-
-
 }
     
