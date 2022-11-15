@@ -101,6 +101,13 @@ main{
 	width:6em;
 	font-size: 1em;
 }
-.total>:nth-child(2){
+.total>p{
 	margin-bottom:2em;
+}
+span{
+	font-weight:700;
+}
+.purchase :nth-child(1){
+	font-size: 1.1em;
+
 }
