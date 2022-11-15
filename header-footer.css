@@ -1,7 +1,22 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+*{
+	margin:0;
+	Padding:0;
+	font-family: 'Inter', sans-serif;
+}
+.button{
+	background-color:#55C2DA;
+}
+
 body {
   height: 100vh;
-  display: grid;
+  display: flex;
+  flex-direction: column;
+  background-color:#F5F8F7
+  
 }
+
 
 /* Här börjar headerkoden för mobil */
 header {
@@ -123,6 +138,7 @@ nav a {
 
 footer {
   background-color: #495A57;
+
   display: grid;
   grid-template-rows: 6fr 2fr 2.5fr 0.5fr ;
   color: white;
