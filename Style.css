@@ -1,4 +1,7 @@
 
+html {
+	scroll-behavior: smooth;
+}
 
 main {
 	display: flex;
@@ -277,11 +280,3 @@ main {
 	}
 
 }
-<<<<<<< HEAD
-body{background-color:#F5F8F7
-}
-.button{
-	background-color:#55C2DA;
-}
-=======
->>>>>>> landing-page
