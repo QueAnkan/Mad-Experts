@@ -5,13 +5,16 @@
 	Padding:0;
 	font-family: 'Inter', sans-serif;
 }
-body{background-color:#F5F8F7
-}
-.button{
+button{
 	background-color:#55C2DA;
+  border-radius: 5px;
+  height:3em;
+  font-size: 1.2em;
+  font-weight: 900;
 }
 
 body {
+  background-color:#F5F8F7;
   height: 100vh;
   display: flex;
   flex-direction:column;
@@ -137,7 +140,6 @@ nav a {
 
 footer {
   background-color: #495A57;
-  border: 10px solid red;
   display: grid;
   grid-template-rows: 6fr 2fr 2.5fr 0.5fr ;
   grid-template-columns: 100vw;
