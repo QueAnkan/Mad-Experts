@@ -15,15 +15,7 @@ main{
 	padding:2em;
 	
 }
-.product-text{
-	display:flex;
-	justify-content: space-between;
-}
-.extra{
-	display:flex;
-	justify-content: space-between;
 
-}
 .product-picture{
 	grid-area:1/1/3/1;
 }
