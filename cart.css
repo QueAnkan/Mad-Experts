@@ -12,6 +12,8 @@ main{
 	display:grid;
 	grid-template-columns: repeat(3, 1fr);
 	grid-template-rows: 2fr 2fr 1fr;
+	border-top: 1px solid black;
+	padding:2em;
 	
 }
 .product-text{
@@ -67,17 +69,45 @@ main{
 	justify-self:end
 }
 
+#quantity{
+	width:3.7em;
+	height:3.7em;
+	
+}
+.add-remove{
+	width:3em;
+	height:3em;
+}
 .input-field{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
+	padding:0 12em 1em 12em;
+	border-bottom:1px solid black;
 }
-#quantity{
-	width:2em;
-	height:2em;
+.input-field>*{
+	margin-bottom:1em;
 }
-.add-remove{
-	width:2.4em;
-	height:2.4em;
+
+#print{
+	height:3.7em;
+}
+.cart-header{
+	font-size: 1.6em;
+	margin:2em 0;
+}
+.total{
+	display:flex;
+	flex-direction: column;
+	margin:2em 0;
+	
+}
+.small-button{
+	height:2.5em;
+	width:5em;
+	font-size: 1em;
+}
+.total>:nth-child(2){
+	margin-bottom:1em;
 }

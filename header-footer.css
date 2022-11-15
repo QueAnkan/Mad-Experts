@@ -5,12 +5,16 @@
 	Padding:0;
 	font-family: 'Inter', sans-serif;
 }
-.button{
+button{
 	background-color:#55C2DA;
+  border-radius: 5px;
+  height:3em;
+  font-size: 1.2em;
+  font-weight: 900;
 }
 
 body {
-  background-color:#F5F8F;
+  background-color:#F5F8F7;
   height: 100vh;
   display: flex;
   flex-direction:column;
