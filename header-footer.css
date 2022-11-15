@@ -1,8 +1,8 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 *{
 	margin:0;
 	Padding:0;
+  box-sizing: border-box;
 	font-family: 'Inter', sans-serif;
 }
 button{
@@ -23,12 +23,14 @@ body {
 /* Här börjar headerkoden för mobil */
 header {
   background-color: #495A57;
-  position: fixed;
-  width: 100%;
+  position: sticky;
+  top: 0;
+  max-width: 70rem;
   z-index: 99;
   display: flex;
   justify-content: center;
   align-items: center;
+  opacity: 0.95;
   
 }
 
@@ -48,7 +50,7 @@ h1 {
   color: #D9D9d9;
 }
 
-.logoimage {
+.logo img {
   height: 5em;
 }
 
@@ -133,7 +135,7 @@ nav a {
 }
 
 .shopping-icon {
-  opacity: 0;
+  display: none;
 }
 
 /* Här slutar headerkoden för mobil och footerkoden för mobil startar */
@@ -141,7 +143,7 @@ nav a {
 footer {
   background-color: #495A57;
   display: grid;
-  grid-template-rows: 6fr 2fr 2.5fr 0.5fr ;
+  grid-template-rows: 6fr 2fr 2.5fr 0.5fr;
   color: white;
 }
 
@@ -239,6 +241,7 @@ footer {
   .shopping-icon {
     height: 1.5rem;
     opacity: 1;
+    display: unset;
     
   }
 
@@ -293,5 +296,4 @@ footer {
   /* Här slutar footer koden för större skärm */
 
 }
-
 
