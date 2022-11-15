@@ -6,6 +6,11 @@ main{
 	margin-top:5em;
 	
 }
+.cart-header{
+	font-size: 1.6em;
+	margin:2em 0;
+}
+
 .product-card{
 	/*border:2px solid black;*/
 	display:grid;
@@ -63,13 +68,17 @@ main{
 #quantity{
 	width:3em;
 	height:3em;
-	
-	
 }
+
 .add-remove{
-	width:2.8em;
-	height:2.8em;
+	width:2.5em;
+	height:2.5em;
 }
+
+.purchase :nth-child(1){
+	font-size: 1.1em;
+}
+
 .input-field{
 	display: flex;
 	flex-direction: column;
@@ -86,28 +95,42 @@ main{
 	height:2em;
 	width:15em;
 }
-.cart-header{
-	font-size: 1.6em;
-	margin:2em 0;
-}
-.total{
-	display:flex;
-	flex-direction: column;
-	margin:2em 0 3em 0;
-	
-}
 .small-button{
 	height:2.8em;
 	width:6em;
 	font-size: 1em;
 }
+
+.total{
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+	margin:2em 0 3em 0;
+}
+
 .total>p{
 	margin-bottom:2em;
 }
 span{
 	font-weight:700;
 }
-.purchase :nth-child(1){
-	font-size: 1.1em;
 
+/*kod för större skärm*/
+@media screen and (min-width: 920px){
+
+	main{
+		margin-top: 9em;
+	}
+.input-field{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: flex-end;
+	padding:0;
+	align-self:flex-end;
+}
+.input-field :nth-child(2){
+	margin: 0 1em;
+	
+}
 }
