@@ -5,14 +5,10 @@
   box-sizing: border-box;
 	font-family: 'Inter', sans-serif;
 }
-<<<<<<< HEAD
 button{
-=======
-.button{
->>>>>>> about
 	background-color:#55C2DA;
   border-radius: 5px;
-  height:3em;
+  height: 3em;
   width: 12em;
   font-size: 1.2em;
   font-weight: 900;
@@ -149,11 +145,7 @@ nav a {
 footer {
   background-color: #495A57;
   display: grid;
-<<<<<<< HEAD
   grid-template-rows: 6fr 2fr 2.5fr 0.5fr;
-=======
-  grid-template-rows: 6fr 2fr 2.5fr 0.5fr ;
->>>>>>> about
   color: white;
   max-width: 120rem;
 }
@@ -320,14 +312,8 @@ footer {
 
 @media screen and (min-width: 1024px) {
 
-<<<<<<< HEAD
   header {
     max-width: 60rem;
   }
   
 }
-=======
-main {
-  background-color: bisque;
-}
->>>>>>> about
