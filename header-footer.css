@@ -5,6 +5,7 @@
   box-sizing: border-box;
 	font-family: 'Inter', sans-serif;
 }
+<<<<<<< HEAD
 button{
 	background-color:#55C2DA;
   border-radius: 5px;
@@ -21,6 +22,10 @@ body {
   background-color:#F5F8F7
   
 }
+=======
+
+
+>>>>>>> landing-page
 
 /* Här börjar headerkoden för mobil */
 header {
@@ -147,7 +152,7 @@ footer {
   display: grid;
   grid-template-rows: 6fr 2fr 2.5fr 0.5fr;
   color: white;
-  max-width: 120rem;
+  max-width: 100%;
 }
 
 
@@ -313,7 +318,15 @@ footer {
 @media screen and (min-width: 1024px) {
 
   header {
-    max-width: 60rem;
+    max-width: 70rem;
+  }
+
+  footer {
+    max-width: 70rem;
   }
   
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> landing-page
