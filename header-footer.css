@@ -25,7 +25,7 @@ header {
   background-color: #495A57;
   position: sticky;
   top: 0;
-  max-width: 70rem;
+  width: 100%;
   z-index: 99;
   display: flex;
   justify-content: center;
@@ -145,6 +145,7 @@ footer {
   display: grid;
   grid-template-rows: 6fr 2fr 2.5fr 0.5fr;
   color: white;
+  max-width: 120rem;
 }
 
 
@@ -205,7 +206,7 @@ footer {
 
 
 
-@media screen and (min-width: 920px) {
+@media screen and (min-width: 800px) {
   
 /* Här börjar header koden för större skärm */
   header {
@@ -235,7 +236,7 @@ footer {
 
   nav a {
     opacity: 1;
-    font-size: 1.5rem;
+    font-size: 0.96rem;
   }
 
   .shopping-icon {
@@ -264,6 +265,8 @@ footer {
 
   .footer-links ul li {
     text-align: left;
+    font-size: 1rem;
+    line-height: 0.8rem;
   }
 
   .social {
@@ -284,6 +287,14 @@ footer {
     margin-left: 2rem;
   }
 
+  footer .contact-info h3 {
+    font-size: 1.2rem;
+  }
+
+  footer .contact-info p {
+    font-size: 1.2rem;
+  }
+
   .contact-info > * {
     margin-top: 1rem;
   }
@@ -297,3 +308,10 @@ footer {
 
 }
 
+@media screen and (min-width: 1024px) {
+
+  header {
+    max-width: 60rem;
+  }
+  
+}
