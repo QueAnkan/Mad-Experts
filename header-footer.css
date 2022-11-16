@@ -5,7 +5,11 @@
   box-sizing: border-box;
 	font-family: 'Inter', sans-serif;
 }
+<<<<<<< HEAD
 button{
+=======
+.button{
+>>>>>>> about
 	background-color:#55C2DA;
   border-radius: 5px;
   height:3em;
@@ -17,7 +21,9 @@ body {
   background-color:#F5F8F7;
   height: 100vh;
   display: flex;
-  flex-direction:column;
+  flex-direction: column;
+  background-color:#F5F8F7
+  
 }
 
 /* Här börjar headerkoden för mobil */
@@ -143,7 +149,11 @@ nav a {
 footer {
   background-color: #495A57;
   display: grid;
+<<<<<<< HEAD
   grid-template-rows: 6fr 2fr 2.5fr 0.5fr;
+=======
+  grid-template-rows: 6fr 2fr 2.5fr 0.5fr ;
+>>>>>>> about
   color: white;
   max-width: 120rem;
 }
@@ -310,8 +320,14 @@ footer {
 
 @media screen and (min-width: 1024px) {
 
+<<<<<<< HEAD
   header {
     max-width: 60rem;
   }
   
 }
+=======
+main {
+  background-color: bisque;
+}
+>>>>>>> about
