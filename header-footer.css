@@ -5,7 +5,6 @@
   box-sizing: border-box;
 	font-family: 'Inter', sans-serif;
 }
-<<<<<<< HEAD
 button{
 	background-color:#55C2DA;
   border-radius: 5px;
@@ -22,10 +21,6 @@ body {
   background-color:#F5F8F7
   
 }
-=======
-
-
->>>>>>> landing-page
 
 /* Här börjar headerkoden för mobil */
 header {
@@ -325,8 +320,4 @@ footer {
     max-width: 70rem;
   }
   
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> landing-page
