@@ -5,26 +5,8 @@
   box-sizing: border-box;
 	font-family: 'Inter', sans-serif;
 }
-<<<<<<< HEAD
-button{
-=======
-.button{
->>>>>>> about
-	background-color:#55C2DA;
-  border-radius: 5px;
-  height:3em;
-  font-size: 1.2em;
-  font-weight: 900;
-}
 
-body {
-  background-color:#F5F8F7;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  background-color:#F5F8F7
-  
-}
+
 
 /* Här börjar headerkoden för mobil */
 header {
@@ -149,13 +131,9 @@ nav a {
 footer {
   background-color: #495A57;
   display: grid;
-<<<<<<< HEAD
   grid-template-rows: 6fr 2fr 2.5fr 0.5fr;
-=======
-  grid-template-rows: 6fr 2fr 2.5fr 0.5fr ;
->>>>>>> about
   color: white;
-  max-width: 120rem;
+  max-width: 100%;
 }
 
 
@@ -320,14 +298,12 @@ footer {
 
 @media screen and (min-width: 1024px) {
 
-<<<<<<< HEAD
   header {
-    max-width: 60rem;
+    max-width: 70rem;
+  }
+
+  footer {
+    max-width: 70rem;
   }
   
 }
-=======
-main {
-  background-color: bisque;
-}
->>>>>>> about
