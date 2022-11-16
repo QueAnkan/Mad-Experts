@@ -7,6 +7,7 @@ main{
 	padding:0 1em;
 	
 }
+
 .cart-header{
 	font-size: 1.6em;
 	margin:2em 0;
@@ -102,6 +103,7 @@ hr{
 	height:2em;
 	width:15em;
 }
+
 .small-button{
 	height:2.8em;
 	width:6em;
@@ -118,6 +120,7 @@ hr{
 .total>p{
 	margin-bottom:2em;
 }
+
 span{
 	font-weight:700;
 }
@@ -149,8 +152,7 @@ main{
 }
 
 .total{
-	align-self: flex-end;
-	
+	align-self: flex-end;	
 }
 
 }
