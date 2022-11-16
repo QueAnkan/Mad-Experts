@@ -8,7 +8,8 @@
 button{
 	background-color:#55C2DA;
   border-radius: 5px;
-  height:3em;
+  height: 3em;
+  width: 12em;
   font-size: 1.2em;
   font-weight: 900;
 }
