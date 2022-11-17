@@ -126,7 +126,7 @@ span{
 }
 
 /*kod för större skärm*/
-@media screen and (min-width: 920px){
+@media screen and (min-width: 800px){
 
 main{
 	margin: 9em auto 5em auto;
