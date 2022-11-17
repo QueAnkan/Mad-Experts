@@ -5,6 +5,11 @@
   box-sizing: border-box;
 	font-family: 'Inter', sans-serif;
 }
+
+span {
+  font-weight: 700;
+}
+
 button{
 	background-color:#55C2DA;
   border-radius: 7px;
