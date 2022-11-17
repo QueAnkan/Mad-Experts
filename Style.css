@@ -99,13 +99,8 @@ main {
 }
 
 .product-cta-button button {
-	height: 3rem;
-	width: 13rem;
 	border: none;
 	background-color: #55C2DA;
-	border-radius: 0.2rem;
-	font-weight: bold;
-	font-size: 1rem;
 	cursor: pointer;
 }
 
@@ -144,13 +139,8 @@ main {
 
 .app button {
 	background-color: #55C2DA;
-	width: 13rem;
-	height: 3rem;
 	border: none;
-	border-radius: 0.2rem;
 	margin-bottom: 1rem;
-	font-size: 1rem;
-	font-weight: bold;
 	cursor: pointer;
 }
 

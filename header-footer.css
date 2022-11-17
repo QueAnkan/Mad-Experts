@@ -7,11 +7,16 @@
 }
 button{
 	background-color:#55C2DA;
-  border-radius: 5px;
-  height: 3em;
-  width: 12em;
+  border-radius: 7px;
+  height: 3rem;
+  width: 13rem;
   font-size: 1.2em;
-  font-weight: 900;
+  font-weight: bold;
+  border: none;
+}
+
+button:hover {
+  background-color: rgba(85, 194, 218, 0.8);
 }
 
 body {
