@@ -7,9 +7,13 @@ main {
     align-items: center;
     margin: auto;
 }
-p {
+/*p {
     font-size: 16px;
-}
+}*/
+
+/*span {
+    font-weight: ;
+}*/
 
 .mainheading {
     color: #000000;
@@ -29,6 +33,10 @@ p {
     padding-bottom: 0,8em;
 }
 
+article {
+    margin: 2em
+}
+
 .cardfolder {
     display: grid;
     grid-template-columns: 1fr;
@@ -36,7 +44,6 @@ p {
 }
 .cardfolder > img {
     justify-self: center;
-
 }
 
 
