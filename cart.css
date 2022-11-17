@@ -158,7 +158,7 @@ main{
 }
 
 /*kod för mindre skärm*/
-@media screen and (max-width:538px) {
+@media screen and (max-width:600px) {
 	.change-quantity{
 		grid-row:3/3;
 		grid-column: 2/4;
