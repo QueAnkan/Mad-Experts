@@ -1,3 +1,5 @@
+
+/* Här några allmänt kod som ska gälla på alla sidor */
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 *{
 	margin:0;
@@ -29,9 +31,14 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
   
 }
+
+main {
+  background-color: #F5F8F7;
+}
+
+/* Här slutar allmänna koden */
 
 /* Här börjar headerkoden för mobil */
 header {
@@ -60,7 +67,7 @@ header {
 }
 
 h1 {
-  color: #D9D9d9;
+  color: #F5F8F7;
 }
 
 .logo img {
@@ -71,7 +78,7 @@ h1 {
 .nav-toggle-label span::before,
 .nav-toggle-label span::after {
   display: block;
-  background-color: white;
+  background-color: #F5F8F7;
   height: 4px;
   width: 1.8em;
   border-radius: 2px;
@@ -157,7 +164,7 @@ footer {
   background-color: #495A57;
   display: grid;
   grid-template-rows: 6fr 2fr 2.5fr 0.5fr;
-  color: white;
+  color: #F5F8F7;
   max-width: 100%;
 }
 
@@ -176,7 +183,7 @@ footer {
 }
 
 .footer-links ul li a {
-  color: white;
+  color: #F5F8F7;
 }
 
 .social {
