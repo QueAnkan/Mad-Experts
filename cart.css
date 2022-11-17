@@ -3,8 +3,10 @@ main{
 	display:flex;
 	flex-direction: column;
 	align-items: center;
-	margin-top:5em;
-	padding:0 1em;
+	/*margin-top:5em;*/
+	padding:0 ;
+	overflow-x: hidden;
+	
 	
 }
 
@@ -16,7 +18,7 @@ main{
 hr{
 	border:0;
 	border-top: 1px solid black;
-	width:100%;
+	width:90%;
 }
 
 .product-card{
@@ -26,6 +28,7 @@ hr{
 	grid-template-columns: repeat(3, 1fr);
 	grid-template-rows: 2fr 2fr 1fr;
 	padding:2em;
+	
 	
 }
 
@@ -129,7 +132,7 @@ span{
 @media screen and (min-width: 800px){
 
 main{
-	margin: 9em auto 5em auto;
+	margin: 4em  auto 5em auto;
 	}
 
 .input-field{
@@ -158,12 +161,14 @@ main{
 }
 
 /*kod för mindre skärm*/
+
 @media screen and (max-width:600px) {
 	.change-quantity{
 		grid-row:3/3;
 		grid-column: 2/4;
 		justify-self:end;
 	}
+	
 	
 	
 }
