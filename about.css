@@ -8,19 +8,12 @@ main {
     justify-content: center;
     align-items: center;
 }
-/*p {
-    font-size: 16px;
-}*/
-
-/*span {
-    font-weight: ;
-}*/
 
 .mainheading {
     color: #000000;
+    font-size: 2.4rem;
     padding: 1em 0em 1em; 
 }
-
 
 section > img {
     width: 100%;
@@ -35,7 +28,6 @@ section > img {
 
 .head-image-container > article {
     text-align: center;
-    /*max-width: 45em;*/
     margin: 1em 1.5em 3em 1.5em;
 }
 
@@ -63,19 +55,13 @@ section > img {
     padding-bottom: 2em;
 }
 
-
 hr {
     border:0;
     border-top: 1px solid black;
     width: 100%;
 }
 
-   /* line-height: 1.0;*/
-
    /*Här startar webbversionen*/ 
-
-
-
 
 @media screen and (min-width: 800px) {
 
@@ -103,7 +89,8 @@ hr {
         padding-bottom: 5em;
     } 
     .person2 {
-        text-align: right;
+        text-align: left;
+        justify-self: end;
         grid-row-start: 2;
         padding-top: 7em;
         padding-bottom: 5em;
