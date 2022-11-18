@@ -8,6 +8,10 @@
 	font-family: 'Inter', sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 span {
   font-weight: 700;
 }
@@ -54,16 +58,19 @@ header {
   
 }
 
-.logo {
+.logo a {
   display: flex;
   align-items: center;
+  text-decoration: none;
 }
 
 .shopping-icon-mobile {
-  height: 2rem;
+  height: 1.5rem;
   position: absolute;
+  top: 0;
   right: 0;
-  margin-right: 1em;
+  margin: 1rem;
+  margin-top: 2rem;
 }
 
 h1 {
@@ -108,7 +115,6 @@ nav {
   width: 100%;
   transform: scale(1,0);
   transform-origin: top;
-  transition: transform 400ms ease-in-out;
 }
 
 nav ul {
@@ -231,7 +237,7 @@ footer {
 /* Här börjar header koden för större skärm */
   header {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 2fr ;
+    grid-template-columns: 1fr 2fr 1fr 1fr ;
   }
 
   .logo {
